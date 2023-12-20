@@ -1,0 +1,3 @@
+[submodule "typescript-courses"]
+	path = typescript-courses
+	url = https://github.com/mike-north/typescript-courses
