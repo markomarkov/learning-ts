@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		// {
+		// 	"name": "typescript-courses",
+		// 	"path": "typescript-courses"
+		// },
+		{
+			"name": "notes-ts-fundamentals-v4",
+			"path": "typescript-courses/packages/notes-ts-fundamentals-v4"
+		},
+		{
+			"name": "website",
+			"path": "typescript-courses/packages/website"
+		},
+		{
+			"name": "welcome-to-ts",
+			"path": "typescript-courses/packages/welcome-to-ts"
+		},
+		{
+			"name": "http-error",
+			"path": "typescript-courses/packages/http-error"
+		},
+		{
+			"name": "notes-enterprise-ts-v2",
+			"path": "typescript-courses/packages/notes-enterprise-ts-v2"
+		},
+		{
+			"name": "notes-intermediate-ts-v2",
+			"path": "typescript-courses/packages/notes-intermediate-ts-v2"
+		},
+		{
+			"name": "hello-ts",
+			"path": "typescript-courses/packages/hello-ts"
+		},
+		{
+			"name": "chat",
+			"path": "typescript-courses/packages/chat"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"learning-ts",
+			"notes-ts-fundamentals-v4",
+			"welcome-to-ts",
+			"http-error",
+			"notes-enterprise-ts-v2",
+			"notes-intermediate-ts-v2",
+			"hello-ts"
+		],
+		"cSpell.words": [
+			"audiobook"
+		]
+	}
+}
