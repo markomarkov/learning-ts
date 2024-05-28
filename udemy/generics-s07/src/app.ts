@@ -1,9 +1,17 @@
+const namesArray1: Array<string> = ['Max', 'Manuel'];
+
 // const names: Array<string> = []; // string[]
 // // names[0].split(' ');
 
 // const promise: Promise<number> = new Promise((resolve, reject) => {
 //   setTimeout(() => {
 //     resolve(10);
+//   }, 2000);
+// });
+
+// const promise: Promise<string> = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve('This is done!');
 //   }, 2000);
 // });
 
