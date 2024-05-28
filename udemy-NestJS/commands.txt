@@ -10,3 +10,15 @@ docker run --name dpage/pgadmin4 -p 80:80 \
     -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' \
     -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' \
     -d pgadmin4
+
+
+
+
+
+
+
+CREATE TABLE task_management(  
+    id int NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    create_time DATE,
+    name VARCHAR(255)
+);
