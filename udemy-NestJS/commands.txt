@@ -1,0 +1,12 @@
+
+
+docker run --name postgres-nest -p 5432:5432 \
+ -e POSTGRES_PASSWORD=postgres \
+ -d postgres
+
+
+
+docker run --name dpage/pgadmin4 -p 80:80 \
+    -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' \
+    -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' \
+    -d pgadmin4
