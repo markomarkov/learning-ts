@@ -36,7 +36,7 @@ class Person {
   }
 }
 
-const pers = new Person();
+const pers: Person = new Person();
 
 console.log(pers);
 
