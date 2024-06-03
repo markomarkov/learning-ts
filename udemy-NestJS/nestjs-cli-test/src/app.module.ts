@@ -2,11 +2,15 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AppEntity } from './app.entity';
 
+// const appRepository = TypeOrmModule.getRepository(AppEntity);
+// const appRepository = dataSource.getRepository(AppEntity);
+
+// Importing the module
 @Module({
   imports: [
     // Importing the module
-    // TaskModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
@@ -17,6 +21,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       autoLoadEntities: true,
       synchronize: true,
     }),
+    TypeOrmModule.forFeature([AppEntity]),
   ],
   controllers: [AppController],
   providers: [AppService],
