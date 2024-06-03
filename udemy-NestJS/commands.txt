@@ -22,3 +22,14 @@ CREATE TABLE task_management(
     create_time DATE,
     name VARCHAR(255)
 );
+
+
+
+
+npm install -g @nestjs/cli
+npm install -g @nrwl/cli
+npm install -g nx
+npm install -g pnpm
+npm install -g ts-node
+npm install -g typescript
+
